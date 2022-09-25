@@ -55,10 +55,16 @@ img {
 }
 
 .logo {
-    margin: 0 2rem;
+    margin: 1rem 2rem;
     font-size: 2rem;
     font-weight: 700;
     cursor: pointer;
+}
+
+.logo img {
+    height: 45px;
+    object-fit: cover;
+    margin: 1rem 0;
 }
 
 .icon {
